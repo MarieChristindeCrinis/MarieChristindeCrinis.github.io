@@ -2,5 +2,20 @@ body{
   font: 15px/1.5 Arial, sans-serif,serif;
   padding:0;
   margin:0;
-  background-color: #f5f5f5;
+  background-color: #f4f4f6;
+}
+/*here is the global stuff*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/*here is the header stuff**/
+header{
+  background: #26555a;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #56d 3px solid;
 }
