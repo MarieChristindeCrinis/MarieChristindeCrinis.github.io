@@ -82,23 +82,43 @@ header a:hover{
 }
 
 /* Information stuff **/
-#information{
+#main{
   display:block;
   margin-top: 20px;
 }
 
-#information .container{
-  float: left;
+#main .container{
   text-align: center;
   width:  30%;
   padding:10px;
 }
 
-#information .container img{
+#main .container img{
   width: 110px;
 }
 
+/*sidebar**/
+aside#sidebar{
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+/*article**/
+article#text{
+  float: left;
+  width: 65%;
+}
+
+#contactTitle{
+  font-size: 40px;
+}
+
+
 footer{
+  text-decoration:none;
   padding: 20px;
   margin-top: 20px;
   color:#ffffff;
