@@ -11,6 +11,11 @@ body{
   overflow:hidden;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 /*here is the header stuff**/
 header{
   background: #26555a;
@@ -18,4 +23,30 @@ header{
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #56d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #title{
+  float:left;
+}
+
+header #title h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
 }
